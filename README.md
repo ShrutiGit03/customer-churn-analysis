@@ -1,23 +1,29 @@
-# customer-churn-analysis
+## Customer Churn Analysis using SQL & Dashboard
 
-## Problem Statement
-Customer attrition is a major challenge for subscription-based businesses. 
-The objective of this project is to analyze customer behavior and identify factors associated with churn.
+### Problem Statement
+Customer churn directly impacts revenue and long-term business growth.
+This project analyzes customer behavior data to identify patterns and factors contributing to churn.
 
-### Dataset
-Structured customer dataset containing demographic details, usage patterns, and churn labels.
-
-### Approach
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- SQL-style analytical reasoning
-- Visualization of churn patterns
-
-### Key Insights
-- Certain customer segments show significantly higher churn rates
-- Usage behavior and service-related factors strongly influence churn
-- Early identification of at-risk customers can improve retention strategies
+### Data Sources
+- Customer_Data.xlsx: Customer demographics, usage, and service details
+- Prediction_Data.xlsx: Churn labels and derived indicators
 
 ### Tools Used
-Python, Pandas, NumPy, Matplotlib, Seaborn
+- SQL for data extraction and analysis
+- Excel for intermediate analysis and validation
+- Dashboarding tool for visualization and reporting
+
+### Analysis Approach
+- Wrote SQL queries to analyze churn rates across customer segments
+- Identified high-risk groups based on tenure, service usage, and plan type
+- Created a dashboard to visualize churn trends and KPIs
+- Summarized findings in a structured analytical report
+
+### Key Insights
+- Certain customer segments show significantly higher churn probability
+- Service usage patterns strongly correlate with customer retention
+- Targeted retention strategies can reduce churn in high-risk segments
+
+### Outcome
+Delivered a churn analysis dashboard and report to support data-driven
+customer retention decisions.
